@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText android:id="@+id/inputEditText"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Введіть текст" />
+
+    <RadioGroup android:id="@+id/fontRadioGroup"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+        <RadioButton android:id="@+id/radioSans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sans" />
+        <RadioButton android:id="@+id/radioSerif" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Serif" />
+        <RadioButton android:id="@+id/radioMonospace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Monospace" />
+    </RadioGroup>
+
+    <Button android:id="@+id/btnOk" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="OK" android:layout_marginTop="8dp" />
+
+    <Button android:id="@+id/btnOpen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Відкрити історію"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
